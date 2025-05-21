@@ -1,0 +1,190 @@
+/* Overall Dashboard Styles */
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .dashboard-container h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  /* Icons and Cards Layout */
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .icon-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon-card:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .icon-card h4 {
+    margin-top: 10px;
+  }
+  
+  /* Grid Layout for Sections */
+  .data-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Card Styles for User, Books, and User-Book */
+  .data-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-card h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Card Styling for User, Books, and User-Book */
+  .user-card, .book-card, .user-book-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .user-card-header, .book-card-header, .user-book-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-role, .book-status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .user-role.member {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .user-role.male {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .book-status.available {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .book-status.not-available {
+    background-color: #FF5722;
+    color: white;
+  }
+  
+  /* Actions (Edit & Delete buttons) */
+  .btn {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #FF5722;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  /* Add this to your DashboardPage.css */
+
+/* Inquiry Card Container */
+.inquiry-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Individual Inquiry Card */
+  .inquiry-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect on Inquiry Card */
+  .inquiry-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Inquiry Card Header */
+  .inquiry-card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Inquiry Card Message */
+  .inquiry-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Inquiry Card Label */
+  .inquiry-card p strong {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Inquiry Card Footer */
+  .inquiry-card footer {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .inquiry-cards {
+      grid-template-columns: 1fr; /* Stack cards vertically */
+    }
+  }
+  

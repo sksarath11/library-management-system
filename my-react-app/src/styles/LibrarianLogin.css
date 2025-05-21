@@ -1,0 +1,38 @@
+.librarian-login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #6c5ce7;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+  
+  .librarian-login-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .librarian-login-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .librarian-login-form input {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .btn.librarian {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login-message {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  

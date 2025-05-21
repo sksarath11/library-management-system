@@ -1,0 +1,62 @@
+.library-wrapper {
+    padding: 20px;
+  }
+  
+  .user-details {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .library-title {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .library-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .library-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .library-card h2 {
+    margin-top: 0;
+  }
+  
+  .library-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .library-actions button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-buy {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn-reserve {
+    background-color: #FF9800;
+    color: white;
+  }
+  
+  .btn-cancel {
+    background-color: #f44336;
+    color: white;
+  }
+  
