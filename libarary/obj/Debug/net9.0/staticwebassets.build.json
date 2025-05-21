@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "kbv05E48qeqgO34EchJ/y74Lg5AKzvUnIzmVgRgOmZE=",
+  "Source": "libarary",
+  "BasePath": "_content/libarary",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "libarary\\wwwroot",
+      "Source": "libarary",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\",
+      "BasePath": "_content/libarary",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\cz6hlmby39-ps7v0oif3d.gz",
+      "SourceId": "libarary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/libarary",
+      "RelativePath": "index#[.{fingerprint=ps7v0oif3d}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "u6ran0sy4i",
+      "Integrity": "2qDkJpxL59ibXZce5mJ9JoHv1uR83Ezk8V0SE2JsRZk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\s4uehjj2hb-stk1kd6jk9.gz",
+      "SourceId": "libarary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/libarary",
+      "RelativePath": "app#[.{fingerprint=stk1kd6jk9}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "69egg61vae",
+      "Integrity": "KmQwe1FwFqsJE8ZXwTNZRVUBtHQRjoqa6ULrlIGn3RE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\app.js",
+      "SourceId": "libarary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\",
+      "BasePath": "_content/libarary",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "stk1kd6jk9",
+      "Integrity": "sCe9HU6US0oSnA4ZMtRgljdhQifMobIKxj2wRU2QxWI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\index.html",
+      "SourceId": "libarary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\",
+      "BasePath": "_content/libarary",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ps7v0oif3d",
+      "Integrity": "x4Y+aUEB8ZLWplFaahf9IQNKsGM0kmL4q34vAZW92AA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\s4uehjj2hb-stk1kd6jk9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001718213058"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "581"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmQwe1FwFqsJE8ZXwTNZRVUBtHQRjoqa6ULrlIGn3RE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sCe9HU6US0oSnA4ZMtRgljdhQifMobIKxj2wRU2QxWI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sCe9HU6US0oSnA4ZMtRgljdhQifMobIKxj2wRU2QxWI="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sCe9HU6US0oSnA4ZMtRgljdhQifMobIKxj2wRU2QxWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sCe9HU6US0oSnA4ZMtRgljdhQifMobIKxj2wRU2QxWI="
+        }
+      ]
+    },
+    {
+      "Route": "app.js.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\s4uehjj2hb-stk1kd6jk9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmQwe1FwFqsJE8ZXwTNZRVUBtHQRjoqa6ULrlIGn3RE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KmQwe1FwFqsJE8ZXwTNZRVUBtHQRjoqa6ULrlIGn3RE="
+        }
+      ]
+    },
+    {
+      "Route": "app.stk1kd6jk9.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\s4uehjj2hb-stk1kd6jk9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001718213058"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "581"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmQwe1FwFqsJE8ZXwTNZRVUBtHQRjoqa6ULrlIGn3RE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sCe9HU6US0oSnA4ZMtRgljdhQifMobIKxj2wRU2QxWI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "stk1kd6jk9"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sCe9HU6US0oSnA4ZMtRgljdhQifMobIKxj2wRU2QxWI="
+        }
+      ]
+    },
+    {
+      "Route": "app.stk1kd6jk9.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sCe9HU6US0oSnA4ZMtRgljdhQifMobIKxj2wRU2QxWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "stk1kd6jk9"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sCe9HU6US0oSnA4ZMtRgljdhQifMobIKxj2wRU2QxWI="
+        }
+      ]
+    },
+    {
+      "Route": "app.stk1kd6jk9.js.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\s4uehjj2hb-stk1kd6jk9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmQwe1FwFqsJE8ZXwTNZRVUBtHQRjoqa6ULrlIGn3RE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "stk1kd6jk9"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KmQwe1FwFqsJE8ZXwTNZRVUBtHQRjoqa6ULrlIGn3RE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\cz6hlmby39-ps7v0oif3d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002557544757"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "390"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2qDkJpxL59ibXZce5mJ9JoHv1uR83Ezk8V0SE2JsRZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"x4Y+aUEB8ZLWplFaahf9IQNKsGM0kmL4q34vAZW92AA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x4Y+aUEB8ZLWplFaahf9IQNKsGM0kmL4q34vAZW92AA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x4Y+aUEB8ZLWplFaahf9IQNKsGM0kmL4q34vAZW92AA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x4Y+aUEB8ZLWplFaahf9IQNKsGM0kmL4q34vAZW92AA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\cz6hlmby39-ps7v0oif3d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2qDkJpxL59ibXZce5mJ9JoHv1uR83Ezk8V0SE2JsRZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2qDkJpxL59ibXZce5mJ9JoHv1uR83Ezk8V0SE2JsRZk="
+        }
+      ]
+    },
+    {
+      "Route": "index.ps7v0oif3d.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\cz6hlmby39-ps7v0oif3d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002557544757"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "390"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2qDkJpxL59ibXZce5mJ9JoHv1uR83Ezk8V0SE2JsRZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"x4Y+aUEB8ZLWplFaahf9IQNKsGM0kmL4q34vAZW92AA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ps7v0oif3d"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x4Y+aUEB8ZLWplFaahf9IQNKsGM0kmL4q34vAZW92AA="
+        }
+      ]
+    },
+    {
+      "Route": "index.ps7v0oif3d.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x4Y+aUEB8ZLWplFaahf9IQNKsGM0kmL4q34vAZW92AA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ps7v0oif3d"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x4Y+aUEB8ZLWplFaahf9IQNKsGM0kmL4q34vAZW92AA="
+        }
+      ]
+    },
+    {
+      "Route": "index.ps7v0oif3d.html.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\library\\systemLib\\libmanage\\libarary\\obj\\Debug\\net9.0\\compressed\\cz6hlmby39-ps7v0oif3d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2qDkJpxL59ibXZce5mJ9JoHv1uR83Ezk8V0SE2JsRZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 06:11:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ps7v0oif3d"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2qDkJpxL59ibXZce5mJ9JoHv1uR83Ezk8V0SE2JsRZk="
+        }
+      ]
+    }
+  ]
+}

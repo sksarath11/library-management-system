@@ -1,0 +1,77 @@
+# Test GET all members
+GET http://localhost:5213/api/member/all
+
+###
+
+# Test POST a new member
+POST http://localhost:5213/api/member/add
+Content-Type: application/json
+
+{
+    "memberId": 1,
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "membershipDate": "2025-04-17"
+}
+
+###
+
+# Test GET a specific member by ID
+GET http://localhost:5213/api/member/get/1
+
+###
+
+# Test DELETE a member by ID
+DELETE http://localhost:5213/api/member/delete/1
+
+###
+
+# Test PUT (Update) a member by ID
+PUT http://localhost:5213/api/member/update/1
+Content-Type: application/json
+
+{
+    "memberId": 1,
+    "name": "Johnathan Doe",
+    "email": "johnathan@example.com",
+    "membershipDate": "2025-04-17"
+}
+
+# Test GET all todos (tasks)
+GET http://localhost:5213/api/task/all
+
+###
+
+# Test POST a new todo (task)
+POST http://localhost:5213/api/task/add
+Content-Type: application/json
+
+{
+    "bookId": 10,       # You can replace "bookId" with "taskId" or another identifier if needed.
+    "author": "Author Name",
+    "title": "New Task Title",
+    "isAvailable": true
+}
+
+###
+
+# Test GET a specific todo (task) by ID
+GET http://localhost:5213/api/task/get/38
+
+###
+
+# Test DELETE a todo (task) by ID
+DELETE http://localhost:5213/api/task/delete/38
+
+###
+
+# Test PUT (Update) a todo (task) by ID
+PUT http://localhost:5213/api/task/update/2
+Content-Type: application/json
+
+{
+    "taskId": 8,
+    "author": "Updated Author",
+    "title": "Updated Task Title",
+    "isAvailable": false
+}
